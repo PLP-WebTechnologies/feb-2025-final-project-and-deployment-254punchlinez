@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Blog - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Mindful<span>Blog</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="blog.html">Articles</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to Mindful Blog</h2>
+                <p>Discover insights, stories, and knowledge to enrich your mind.</p>
+                <a href="blog.html" class="btn">Explore Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search articles...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-posts">
+        <div class="container">
+            <h2 class="section-title">Featured Articles</h2>
+            <div class="posts-grid">
+                <div class="post-card">
+                    <div class="post-image">
+                        <img src="meditation.jpg" alt="Mindfulness Meditation">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Wellness</div>
+                        <h3 class="post-title">The Art of Mindfulness Meditation</h3>
+                        <p class="post-excerpt">Discover how mindfulness meditation can transform your daily life and improve mental clarity.</p>
+                        <div class="post-meta">
+                            <span class="post-date">May 1, 2023</span>
+                            <span class="post-read-time">5 min read</span>
+                        </div>
+                        <a href="post.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-image">
+                        <img src="productivity.jpg" alt="Productivity Tips">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Productivity</div>
+                        <h3 class="post-title">10 Productivity Hacks for Remote Work</h3>
+                        <p class="post-excerpt">Learn effective strategies to boost your productivity while working from home.</p>
+                        <div class="post-meta">
+                            <span class="post-date">April 22, 2023</span>
+                            <span class="post-read-time">7 min read</span>
+                        </div>
+                        <a href="post2.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-image">
+                        <img src="healthy.jpeg" alt="Healthy Recipes">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Nutrition</div>
+                        <h3 class="post-title">5 Nutrient-Rich Breakfast Recipes</h3>
+                        <p class="post-excerpt">Start your day with these delicious and nutritious breakfast options for sustained energy.</p>
+                        <div class="post-meta">
+                            <span class="post-date">April 15, 2023</span>
+                            <span class="post-read-time">4 min read</span>
+                        </div>
+                        <a href="post3.html" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container">
+                <a href="blog.html" class="btn btn-outline">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest articles and updates delivered to your inbox.</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+                <div id="newsletter-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Mindful<span>Blog</span></h2>
+                    <p>Enriching minds, one article at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Articles</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 MindfulBlog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="shared.js"></script>
+</body>
+</html>
