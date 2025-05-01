@@ -1,3 +1,7 @@
+#link to the deployed version 
+https://mindfulblog.vercel.app/
+
+
 # Final Project and Deployment
 
 ## Objectives
